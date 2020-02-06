@@ -46,8 +46,8 @@ thinwalletCtrls.controller("LoginCtrl", function($scope, $location, AccountServi
         // just some dummy account, as not to fill login form every time.
         $scope.mnemonic = "peaches purged gossip either gyrate organs asked ability autumn inexact coffee rays avidly fountain foxes wrist goldfish masterful anecdote sulking masterful science beyond coffee coffee";
     } else {
-        $scope.address = "44AFFq5kSiGBoZ4NMDwYtN18obc8AemS33DBLWs3H7otXft3XjrpDtQGv7SqSsaBYBb98uNbr2VBBEt7f2wfn3RVGQBEP3A";
-        $scope.view_key = "f359631075708155cc3d92a32b75a7d02a5dcf27756707b47a2b31b21c389501" ;
+        $scope.address = "";
+        $scope.view_key = "" ;
     }
 
 
