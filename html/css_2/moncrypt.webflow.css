@@ -443,7 +443,7 @@ p {
   line-height: 20px;
 }
 .login-btn.modals:hover {
-  background-color: #65a5f7;
+  background-color: #7334bb;
 }
 .submit-div {
   margin-top: 46px;
@@ -1008,22 +1008,23 @@ p {
   color: #c8e0fd;
   font-weight: 500;
   text-decoration: none;
+  padding: 0px 14px;
 }
 .lower-nav-link:hover {
   color: white;
 }
 .lower-nav-link:focus {
-  display: inline;
-  padding: 5px 14px;
-  border-radius: 3px;
-  background-color: #68a6f5;
+  display:inline;
+  padding:6px 14px;
+  border-radius:3px;
+  background-color:#4222c6;
 }
 .lower-nav-link.w--current {
   display: inline;
   padding: 6px 11px;
   border-radius: 3px;
-  background-color: #68a6f5;
-  color: white;
+  background-color:#fff;
+	color:#0d0d0d;
 }
 .lower-nav-link.w--current:focus {
   background-color: transparent;
@@ -1032,9 +1033,9 @@ p {
 .dropdown-toggle {
   margin-top: 19px;
   padding: 3px 40px 3px 15px;
-  border: 1px solid #435863;
+  border: 1px solid #fff;
   border-radius: 200px;
-  color: #b2c8d4;
+  color: #fff;
   font-weight: 600;
 }
 .dropdown-toggle:hover {
@@ -1138,12 +1139,13 @@ p {
 .coloured {
 	padding-top: 55px;
 	padding-bottom: 35px;
-	background:-webkit-gradient(linear,left top,right top,from(#A34FFE),to(#5934FC));
-	background:-webkit-linear-gradient(left,#A34FFE,#5934FC);
-	background:-moz-linear-gradient(left,#A34FFE,#5934FC);
-	background:-o-linear-gradient(left,#A34FFE,#5934FC);
-	background:linear-gradient(to right,#A34FFE,#5934FC);
-}
+	background: #4122C6;
+	background: -webkit-gradient(linear,left top,right top,from(#4122C6),to(#7535BB));
+	background: -webkit-linear-gradient(left,#4122C6,#7535BB);
+	background: -moz-linear-gradient(left,#4122C6,#7535BB);
+	background: -o-linear-gradient(left,#4122C6,#7535BB);
+	background: linear-gradient(to right,#4122C6,#7535BB);
+	}
 .slider-heading {
   color: white;
 }
@@ -1181,9 +1183,10 @@ p {
   font-weight: 500;
   text-align: center;
   text-decoration: none;
+  border: 2px solid #fff;
 }
 .create-account-btn:hover {
-  background-color: #6aa7f7;
+  background-color: #7434bb;
 }
 .home-container {
   text-align: center;
@@ -1389,18 +1392,27 @@ p {
     margin-right: 220px;
     margin-bottom: 24px;
     padding-right: 25px;
-    padding-left: 25px;
+    padding-left: 0px;
+	color:#fff;
   }
+  .nav-link:hover{color:#fff;}
   .nav-link.login {
     margin-right: 220px;
     margin-bottom: 16px;
     margin-left: 55px;
     text-align: center;
+	color: #fff;
+	border-color: #fff;
+  }
+  .nav-link.login:hover{
+	color:#fff;
+	border-color:#fff;
   }
   .nav-menu {
     display: block;
     float: right;
-    background-color: #37414f;
+    background-color:#7334bb;
+border-bottom: 2px solid white;
   }
   .body-section {
     padding-right: 0px;
@@ -1436,7 +1448,9 @@ p {
   }
   .brand-box {
     margin-left: 10px;
+	max-width: calc( 100% - 70px );
   }
+  .brand-box span:first-child{font-size:20px;}
   .links-div {
     float: none;
     text-align: center;
@@ -1574,7 +1588,7 @@ p {
   }
   .dropdown-toggle {
     margin-right: 250px;
-    margin-left: 52px;
+    margin-left: 30px;
   }
   .middle-footer {
     display: block;
@@ -1586,10 +1600,12 @@ p {
   }
   .menu-btn {
     color: white;
+	background:#4222c6;
+	margin-top: 3px;
   }
   .menu-btn.w--open {
-    background-color: #37414f;
-    color: #549eff;
+	background-color:#7334bb;
+	color:#fff;
   }
   .review-details-modal {
     display: none;
@@ -1658,7 +1674,6 @@ p {
   .nav-link {
     margin: 0px 100px 0px 20px;
     padding: 12px 25px;
-    border-top: 2px none #333d45;
   }
   .nav-link:hover {
     background-color: #333d45;
@@ -1667,9 +1682,6 @@ p {
     margin-right: 115px;
     margin-left: 42px;
     border: 1px solid #5930d7;
-  }
-  .nav-menu {
-    background-color: #37414f;
   }
   .body-section {
     padding-top: 20px;
@@ -1839,28 +1851,18 @@ p {
   }
   .lower-nav-link {
     margin-right: 0px;
-    margin-left: 15px;
+    margin-left: 0px;
   }
   .dropdown-toggle {
     margin-right: 80px;
-    margin-left: 39px;
     padding-top: 4px;
     padding-bottom: 4px;
-    padding-left: 20px;
-    border-top: 2px solid #435863;
-  }
-  .dropdown-toggle:hover {
-    background-color: #333d45;
   }
   .middle-footer {
     text-align: center;
   }
   .menu-btn {
     color: white;
-  }
-  .menu-btn.w--open {
-    background-color: #37414f;
-    color: #5930d7;
   }
   .review-details-div {
     margin-right: 0px;
